@@ -89,7 +89,7 @@ ul.pager li span {
 }
 }
 
-@media (min-width: 720px) and (max-width: 959px) {
+@media (min-width: 720px) and (max-width: 1248px) {
 .wrapper .container,
 .wrapper .grid {
   width: 100% !important;
