@@ -506,9 +506,9 @@ body {
 @media (max-width: 767px) {
     #logo img {
   	max-width: 300px !important;
-	float:left;
+	float:none;
   	display:block;
-  	margin-top:15px;
+  	margin-top:0;
   	bottom:12px; 
 }
 	.site-slogan {text-align:left;}
