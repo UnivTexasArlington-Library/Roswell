@@ -502,3 +502,12 @@ body {
 #page #credits {
   display: none;
 }
+
+@media (max-width: 767px) {
+    #logo img {
+  	max-width: 300px !important;
+  	display:block;
+  	margin-top:15px;
+  	bottom:12px; 
+}
+}
