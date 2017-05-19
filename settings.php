@@ -1,6 +1,6 @@
 <?php
 
-/***
+/**
  * @file
  * Drupal site-specific configuration file.
  *
@@ -244,7 +244,21 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'roswell',
+      'username' => 'roswell',
+      'password' => '3RAFDBvK3bdexKRK',
+      'host' => 'libwebmysqlprod.ardclb.uta.edu',
+      'port' => '',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -276,7 +290,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '';
+$drupal_hash_salt = 'kA6NNGFoys-US20aCT98YxOAymDjUL9Jx_EnIhBjeEE';
 
 /**
  * Base URL (optional).
