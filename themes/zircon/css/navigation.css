@@ -1,10 +1,10 @@
 a {
-  color: #CF4008;
+  color: #c01700;
   text-decoration: none;
 }
 
 a:hover {
-  color: #CF4008;
+  color: #c01700;
   text-decoration: underline;
 }
 
@@ -67,7 +67,7 @@ a:focus {
 .block ul.menu li a:focus,
 .block ul.menu li a:active {
   background-position: 5px -23px;
-  color: #CF4008;
+  color: #c01700;
   text-decoration: none;
 }
 
@@ -75,7 +75,7 @@ a:focus {
 .block ul.menu li li a:focus,
 .block ul.menu li li a:active {
   background-position: 5px -92px;
-  color: #CF4008;
+  color: #c01700;
 }
 
 .block ul.menu li.expanded ul {
@@ -85,12 +85,12 @@ a:focus {
 .block ul.menu li.active-trail > a,
 .block ul.menu li > a.active {
   background-position: 5px -23px;
-  color: #CF4008;
+  color: #c01700;
 }
 
 .block ul.menu li li a.active {
   background-position: 5px -92px;
-  color: #CF4008;
+  color: #c01700;
 }
 
 .block ul.menu li.last {
@@ -225,7 +225,7 @@ ul.pager {
 }
 
 .item-list ul.pager li.pager-current {
-  color: #CF4008;
+  color: #c01700;
   padding: 4px;
 }
 
@@ -286,7 +286,7 @@ ul.pager-links {
 .item-list ul li a:hover,
 .item-list ul li a:active,
 .item-list ul li a:focus {
-  color: #CF4008;
+  color: #c01700;
 }
 
 .item-list ul li span {
@@ -384,7 +384,7 @@ ul.primary li a {
 ul.primary li a:hover {
   background-color: #ddd;
   border-color: #ddd;
-  color: #CF4008;
+  color: #c01700;
 }
 
 ul.primary li.active a {
@@ -428,10 +428,8 @@ ul.secondary li a.active {
 }
 
 a.btn-btt {
-  /*background: #111;
-  color: #7b7b7b;*/
-  background: #C6C2C2;
-  color: #3D3D3D;
+  background: #111;
+  color: #7b7b7b;
   float: right;
   line-height: normal;
   padding: 3px 10px;
@@ -440,8 +438,8 @@ a.btn-btt {
 a.btn-btt:hover,
 a.btn-btt:active,
 a.btn-btt:focus {
-  background: #a11300;
-  color: #3D3D3D;
+  color: #fff;
+  text-decoration: none;
 }
 
 .contextual-links-wrapper ul li {
@@ -498,13 +496,13 @@ a.feed-icon img {
 #menu-bar-wrapper ul.menu li a:focus,
 #menu-bar-wrapper ul.menu li a:active,
 #menu-bar-wrapper ul.menu li a.active {
-  background: url(../images/bg-nav-active.gif) 0 0 repeat-x #CF4008;
+  background: url(../images/bg-nav-active.gif) 0 0 repeat-x #a01300;
   color: #fff;
 }
 
 #menu-bar-wrapper ul.menu ul {
   background: #2f2f2f;
-  border: 5px solid #CF4008;
+  border: 5px solid #a01300;
   display: none;
   margin: 0;
   min-width: 160px;
@@ -544,7 +542,7 @@ a.feed-icon img {
 }
 
 #menu-bar-wrapper ul.menu li.active-trail > a.active-trail {
-  background: url(../images/bg-nav-active.gif) 0 0 repeat-x #CF4008;
+  background: url(../images/bg-nav-active.gif) 0 0 repeat-x #a01300;
   color: #fff;
 }
 
@@ -595,13 +593,13 @@ a.feed-icon img {
 .tb-megamenu .nav > li > a:focus, 
 .tb-megamenu .nav > li > a:hover,
 .tb-megamenu .nav li.dropdown.open > .dropdown-toggle {
-  background: url("../images/bg-nav-active.gif") repeat-x scroll 0 0 #CF4008;
+  background: url("../images/bg-nav-active.gif") repeat-x scroll 0 0 #a01300;
   color: #fff;
 }
 
 .tb-megamenu .dropdown-menu {
   background: #2f2f2f;
-  border: 5px solid #CF4008;
+  border: 5px solid #a01300;
   display: none;
   margin: 0;
   min-width: 160px;

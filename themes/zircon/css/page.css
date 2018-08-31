@@ -1,7 +1,3 @@
-body {
-    background: #FFF url("/sites/library.uta.edu.roswell/themes/zircon/skins/blue/images/bg-body.png") repeat scroll 0px 0px;
-}
-
 .grid-inner {
   padding: 0 10px;
 }
@@ -33,8 +29,6 @@ body {
   max-width: 30% !important;
   float:right;
   margin-top:15px;
-  position:relative;
-  bottom:-12px; 
 }
 
 #name-and-slogan {
@@ -59,7 +53,7 @@ body {
 
 .site-slogan {
   font-size: 0.912em;
-  margin: 0 0 10px 0;
+  margin: 0;
   padding: 0;
   text-align: right;
   text-transform: uppercase;
@@ -96,7 +90,7 @@ body {
 }
 
 #main-content > .grid-inner {
-  padding: 35px;
+  padding: 10px;
 }
 
 #main-content .region-content #block-system-main .block-inner,
@@ -238,13 +232,6 @@ body {
   font-size: 0.912em;
   position: relative;
 }
-
-#footer a {
-  color:#bbbdbf;
-  text-decoration:underline;
-}
-
-#breadcrumb-wrapper a.btn-btt:hover {color:#fff;}
 
 #footer .tb-copyright {
   color: #bbbdbf;
@@ -508,15 +495,4 @@ body {
 
 #page #credits {
   display: none;
-}
-
-@media (max-width: 767px) {
-    #logo img {
-  	max-width: 300px !important;
-	float:none;
-  	display:block;
-  	margin-top:0;
-  	bottom:12px; 
-}
-	.site-slogan {text-align:left;}
 }
