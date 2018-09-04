@@ -182,7 +182,7 @@
             <?php print render($page['sidebar_first']); ?>
           </aside>  <!-- /#sidebar-first -->
         <?php endif; ?>
-      <section class="col-lg-9 col-md-12 col-sm-12 col-xs-12">
+      <section class="col-lg-9 col-md-12 col-sm-12 col-xs-12 main-content">
         <?php if (!empty($page['highlighted'])): ?>
           <div class="highlighted jumbotron"><?php print render($page['highlighted']); ?></div>
         <?php endif; ?>
