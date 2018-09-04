@@ -6653,9 +6653,10 @@ p {
   .well-lg .main-content {
     margin: 0;
     /*padding-left: 20px;*/
-    padding: 30px; }
-    .well-lg .main-content .block-system {
-      padding: 20px; }
+    padding: 30px;
+    /*& .block-system{
+      padding:20px;
+      }*/ }
   .well-lg .thumbnail {
     margin: 10px 0;
     margin-bottom: 0;
