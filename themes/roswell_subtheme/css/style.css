@@ -6463,6 +6463,9 @@ body {
   /*  line-height: 1.5;*/
   background: #fff url("../images/bg-body.png") repeat scroll 0px 0px; }
 
+p {
+  margin: 1em 0; }
+
 /* Header Style Starts*/
 .navbar-default {
   background-color: transparent;
@@ -6630,16 +6633,16 @@ body {
       .well-lg .panel-grid h2 a:hover {
         color: #c01700;
         text-decoration: none; }
-  .well-lg .node-teaser h2, .well-lg .node-title h2 {
+  .well-lg .node-teaser h2, .well-lg h2.node-title {
     color: #333;
     font-family: Oswald;
     font-size: 2em;
     font-weight: normal;
     margin: 0 0 10px; }
-    .well-lg .node-teaser h2 a, .well-lg .node-teaser h2 a:visited, .well-lg .node-title h2 a, .well-lg .node-title h2 a:visited {
+    .well-lg .node-teaser h2 a, .well-lg .node-teaser h2 a:visited, .well-lg h2.node-title a, .well-lg h2.node-title a:visited {
       color: #333;
       text-decoration: none; }
-    .well-lg .node-teaser h2 a:hover, .well-lg .node-title h2 a:hover {
+    .well-lg .node-teaser h2 a:hover, .well-lg h2.node-title a:hover {
       color: #c01700;
       text-decoration: none; }
   .well-lg .region-content {
@@ -6649,7 +6652,8 @@ body {
       padding: 10px 20px; }
   .well-lg .main-content {
     margin: 0;
-    /*padding-left: 20px;*/ }
+    /*padding-left: 20px;*/
+    padding: 30px; }
     .well-lg .main-content .block-system {
       padding: 20px; }
   .well-lg .thumbnail {
@@ -6902,7 +6906,7 @@ body {
       font-family: Arial, Helvetica, sans-serif !important; }
   .well-lg .region-sidebar-first .block {
     width: 100%; }
-  .well-lg .node-teaser h2, .well-lg .node-title h2 {
+  .well-lg .node-teaser h2, .well-lg h2.node-title {
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: bold; }
   .well-lg .node .field-type-image {
@@ -6928,7 +6932,7 @@ body {
   .well-lg .region-sidebar-first .block {
     width: 50%;
     float: left; }
-  .well-lg .node-teaser h2, .well-lg .node-title h2 {
+  .well-lg .node-teaser h2, .well-lg h2.node-title {
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: bold; } }
 /*For medium devices with width >= than 992px and < than 1200px*/
@@ -6939,7 +6943,7 @@ body {
       font-family: Arial, Helvetica, sans-serif !important; }
   .well-lg .region-sidebar-first .block {
     width: 100%; }
-  .well-lg .node-teaser h2, .well-lg .node-title h2 {
+  .well-lg .node-teaser h2, .well-lg h2.node-title {
     font-family: Arial, Helvetica, sans-serif !important;
     font-weight: bold; } }
 @media (max-width: 1199px) {
