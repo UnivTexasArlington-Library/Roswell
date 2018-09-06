@@ -78,8 +78,8 @@
   <div class="<?php print $container_class; ?>">
     <div class="navbar-header">
       <?php if ($logo): ?>
-        <a class="logo" href="<?php print $front_page; ?>" title="<?php print t('Home'); ?>">
-          <img src="<?php print $logo; ?>" alt="<?php print t('Home'); ?>" />
+        <a class="logo" href="https://library.uta.edu" title="Univerity of Texas Libraries">
+          <img src="<?php print $logo; ?>" alt="Univerity of Texas Libraries" />
         </a>
       <?php endif; ?>
       <?php if ($site_name || $site_slogan): ?>
